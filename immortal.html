@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1"
+          >Turritopsis dohrnii - The Immortal Jellyfish</span
+        >
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row mt-4">
+        <figure class="figure">
+          <img
+            src="./images/Turritopsis_dohrnii.jpg"
+            class="figure-img img-fluid rounded"
+            alt="a jellyfish"
+          />
+          <figcaption class="figure-caption">
+            Turritopsis dohrnii, also known as the immortal jellyfish, is a
+            species of small, biologically immortal jellyfish found worldwide in
+            temperate to tropic waters. It is one of the few known cases of
+            animals capable of reverting completely to a sexually immature,
+            colonial stage after having reached sexual maturity as a solitary
+            individual.
+          </figcaption>
+        </figure>
+      </div>
+      <div class="row">
+        <p>
+          <a
+            class="btn btn-primary"
+            data-bs-toggle="collapse"
+            href="#multiCollapseExample1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="multiCollapseExample1"
+            >Animal Taxonomy</a
+          >
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#multiCollapseExample2"
+            aria-expanded="false"
+            aria-controls="multiCollapseExample2"
+          >
+            Closely Related To
+          </button>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#multiCollapseExample3"
+            aria-expanded="false"
+            aria-controls="multiCollapseExample3"
+          >
+            Lifespan
+          </button>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+              <div class="card card-body">
+                <ul>
+                  <li>Kingdom: Animalia</li>
+                  <li>Phylum: Cinidaria</li>
+                  <li>Class: Hydrozoa</li>
+                  <li>Order: Anthoathecata</li>
+                  <li>Family: Oceaniidae</li>
+                  <li>Genus: Turritopsis</li>
+                  <li>Species: T.dohrnii</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+              <div class="card card-body">
+                <p>
+                  T.dohrnii are closely related to another jellyfish known as
+                  Laodicea undulata and species of the genus Aurelia.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample3">
+              <div class="card card-body">
+                <p>
+                  The capability of biological immortality with no maximum
+                  lifespan makes T.dohrnii an important target of basic
+                  biological, aging and pharmaceutical research.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row justify-content-md-center">
+          <div class="col-4">
+            <figure class="figure">
+              <img
+                src="./images/TurritopsisLifeCycleImgv2.jpg"
+                class="figure-img img-fluid rounded"
+                alt="a jellyfish"
+              />
+              <figcaption class="figure-caption text-end">
+                Science Illustrator: Meghan Rocktopus
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <div class="container-fluid mt-4 mb-4">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Reproduction Strategies
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Immmortal jellyfish reproduce both sexually and asexually,
+                      but it is not hermaphroditic. The sexually mature medusa
+                      stage which reproduces by the spawning and fertilization
+                      of eggs with sperm, while the sexually immature polyps
+                      reproduce by budding.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Animal Habitat
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Turritopsis dohrnii was first discovered in the
+                      Mediterranean Sea, but has since spread worldwide. T.
+                      dohrnii is generally found living in temperate to tropical
+                      waters. They can be found in marinas or docks, on vessel
+                      hulls, and on the ocean floor. They typically live in a
+                      salinity range of polyhaline and euhaline.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Any Predators? What eats them?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Like other jellyfish, T.dohrnii are preyed on by mostly
+                      other jellyfish. Also sea anemones, tuna, sharks,
+                      swordfish, sea turtles, and pengins.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      Any Prey? What do they eat?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Turritopsis dohrnii are a carnivorous species that
+                      commonly feed on zooplankton. Their diet mainly consists
+                      of plankton, fish eggs and small mollusks. T. dohrnii
+                      ingests food and excretes waste through the mouth. T.
+                      dohrnii hunts by using its tentacles as it drifts through
+                      the water. Its tentacles, which contain stinging cells
+                      called nematocysts, spread and sting its prey. The
+                      tentacles can then flex to direct its prey to the mouth.
+                      T. dohrnii, like other jellyfish, may use its bell to
+                      catch its prey. T. dohrnii's bell will expand, sucking in
+                      water, as it propels itself to swim. This expansion of the
+                      bell brings potential prey in closer reach of the
+                      tentacles.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      Any Prey? What do they eat?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Turritopsis dohrnii are a carnivorous species that
+                      commonly feed on zooplankton. Their diet mainly consists
+                      of plankton, fish eggs and small mollusks. T. dohrnii
+                      ingests food and excretes waste through the mouth. T.
+                      dohrnii hunts by using its tentacles as it drifts through
+                      the water. Its tentacles, which contain stinging cells
+                      called nematocysts, spread and sting its prey. The
+                      tentacles can then flex to direct its prey to the mouth.
+                      T. dohrnii, like other jellyfish, may use its bell to
+                      catch its prey. T. dohrnii's bell will expand, sucking in
+                      water, as it propels itself to swim. This expansion of the
+                      bell brings potential prey in closer reach of the
+                      tentacles.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="row">
+              <div class="col-4">
+                <div id="list-example" class="list-group">
+                  <a
+                    class="list-group-item list-group-item-action"
+                    href="#list-item-1"
+                    >Animal Disease, Genetic Problems, Animal Survival</a
+                  >
+                  <a
+                    class="list-group-item list-group-item-action"
+                    href="#list-item-2"
+                  >
+                    Global Population, Global Status</a
+                  >
+                  <a
+                    class="list-group-item list-group-item-action"
+                    href="#list-item-3"
+                  >
+                    Bonus Facts
+                  </a>
+                </div>
+              </div>
+              <div class="col-8">
+                <div
+                  data-bs-spy="scroll"
+                  data-bs-target="#list-example"
+                  data-bs-smooth-scroll="true"
+                  class="scrollspy-example"
+                  tabindex="0"
+                >
+                  <h4 id="list-item-1">
+                    Animal Disease, Genetic Problems, Animal Survival
+                  </h4>
+                  <p>
+                    In response to physical damage or even starvation, they take
+                    a leap back in their development process, transforming back
+                    into a polyp. In a process that looks remarkably like
+                    immortality, the born-again polyp colony eventually buds and
+                    releases medusae that are genetically identical to the
+                    injured adult. The cellular mechanism behind it—a rare
+                    process known as transdifferentiation—is of particular
+                    interest to scientists for its potential applications in
+                    medicine. By undergoing transdifferentiation, an adult cell,
+                    one that is specialized for a particular tissue, can become
+                    an entirely different type of specialized cell. Its an
+                    efficient way of cell recycling and an important area of
+                    study in stem cell research that could help scientists
+                    replace cells that have been damaged by disease.
+                  </p>
+                  <h4 id="list-item-2">Global Population, Global Status</h4>
+                  <p>
+                    I believe this creature does not have anything threatening
+                    its place on earth yet. I believe once the science community
+                    find ways to create the immortal effect the T.dohrnii
+                    possess. Then maybe humans will be the reason behind
+                    anything threatening for these creatures besides sea turtles
+                    and pengins.
+                  </p>
+                  <h4 id="list-item-3">Bonus Facts</h4>
+                  <ul>
+                    <li>
+                      It is unknown how old the oldest immortal jellyfish is.
+                    </li>
+                    <li>
+                      It is the only jellyfish species that does not remain in
+                      the last stage, called the Medusa stage, until death.
+                    </li>
+                    <li>
+                      The regeneration process is called “transdifferentiation”
+                      and it occurs when the jellyfish cells convert to an
+                      immature polyp state.
+                    </li>
+                    <li>
+                      The species has also been found on the Atlantic Ocean side
+                      of Panama, Spain and Japan. It has spread throughout the
+                      world after getting caught in the ballast waters of
+                      long-distance ocean cargo ships.
+                    </li>
+                    <li>
+                      If it starves or gets sick in its immature state when its
+                      called a polyp, it cannot regenerate and will die.
+                    </li>
+                    <li>
+                      Turritopsis rubra and Nemopsis bachei are another type of
+                      species that are similar to the immortal jellyfish.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mx-4">
+      <h2>Works Cited & Citation List</h2>
+      <p>
+        “Immortal Jellyfish.” AZ Animals, 24 Nov. 2020,
+        <a href="https://a-z-animals.com/animals/immortal-jellyfish/"
+          >https://a-z-animals.com/animals/immortal-jellyfish/.
+        </a>
+        “The Real Immortal Jellyfish.” The Real Immortal Jellyfish, 10 Aug.
+        2020,
+        <a href="https://therealimmortaljellyfish.com/"
+          >https://therealimmortaljellyfish.com/</a
+        >. Wikipedia contributors. “Turritopsis Dohrnii.” Wikipedia, The Free
+        Encyclopedia, 30 Nov. 2022,
+        <a
+          href="https://en.wikipedia.org/w/index.php?title=Turritopsis_dohrnii&oldid=1124761648"
+          >https://en.wikipedia.org/w/index.php?title=Turritopsis_dohrnii&oldid=1124761648</a
+        >. Amnh.org,
+        <a
+          href="https://www.amnh.org/explore/news-blogs/on-exhibit-posts/the-immortal-jellyfish"
+          >https://www.amnh.org/explore/news-blogs/on-exhibit-posts/the-immortal-jellyfish</a
+        >. Accessed 6 Dec. 2022.
+      </p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
